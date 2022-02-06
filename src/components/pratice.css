@@ -1,0 +1,78 @@
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+.h3 {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+}
+body {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.grid-item {
+  justify-content: center;
+
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 35px;
+  padding: 1em;
+  box-shadow: rgb(190, 133, 28) 10px 1px 18px 10px;
+  color: rgb(8, 8, 8);
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+
+  padding: 1em;
+  box-shadow: rgba(228, 215, 215, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+  background-color: rgb(133, 199, 174);
+}
+.form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: left;
+  margin-left: 50%;
+  justify-content: right;
+  padding: 5px;
+  box-shadow: 0px 2px 8px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button {
+  margin-left: 50%;
+  margin-bottom: 20px;
+  background-color: deepskyblue;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.input {
+  padding: 10px;
+}
